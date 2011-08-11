@@ -26,11 +26,6 @@ namespace Daedalus.Plugin.Growl
             }
         }
 
-        public List<MCP.MCPPackage> MCPPackages
-        {
-            get { return new List<MCP.MCPPackage>(); }
-        }
-
         public void NewConnection(IConnection conn)
         {
             new GrowlService(conn, growler);
@@ -55,6 +50,11 @@ namespace Daedalus.Plugin.Growl
                     g.Notify(message.Text, "Mention");
                 return message;
             }
+        }
+
+        Type[] IPlugin.MCPPackages
+        {
+            get { return new Type[0]; }
         }
     }
 }
