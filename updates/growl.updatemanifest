@@ -3,7 +3,7 @@ manifest: http://plugins.daedalus-moo.googlecode.com/hg/updates/growl.updatemani
 
 file: Daedalus.Plugin.Growl.dll
 address: http://plugins.daedalus-moo.googlecode.com/hg/updates/Daedalus.Plugin.Growl.dll
-md5:d1ea87ef98f13475501206d425b2506f
+md5:16fdb1110e1e0e2c54d6c5c4cfd99e97
 
 #GfW libraries
 file: Growl.Connector.dll
